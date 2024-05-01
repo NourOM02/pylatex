@@ -1,0 +1,23 @@
+{
+    "table 1" : {
+        "columns": {
+            "Model" : 0,
+            "Base":0,
+            "10 MTS" : 0,
+            "15 MTS": 0,
+            "Fuzzing": 0,
+            "SQLite Format" : 0,
+            "7-shot" : 0,
+            "9-shot" : 0
+        },
+        "body" : "tests/data1.csv"
+    },
+    "table 2": {
+        "columns": {
+            "": ["Dataset", "BM25"],
+            "Classical QE" : ["Bo1", "Bo2", "KL"],
+            "LLM-based QE" : ["Q2D", "Q2D/ZS", "Q2D/PRF", "Q2E", "Q2E/ZS", "Q2E/PRF", "CoT", "CoT/PRF"]
+        },
+        "body" : "tests/data2.csv"
+    }
+}
