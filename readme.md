@@ -28,7 +28,7 @@ The columns parameter is a dictionary where each key is the name of the columns,
 
 Desired output :
 
-![Simple columns](media\simple.png)
+![Simple columns](media/simple.png)
 
 Python code :
 ```python
@@ -39,7 +39,7 @@ columns = {"column 1" : 0, "column 2" : 0, "column 3" : 0, "column 4" : 0}
 
 Desired output :
 
-![Multilevel columns](media\multilevel.png)
+![Multilevel columns](media/multilevel.png)
 
 Python code :
 ```python
@@ -54,7 +54,7 @@ The body of the table can be a dictionary, a pandas Dataframe or a csv file path
 
 **Example**
 
-![Body](media\body.png)
+![Body](media/body.png)
 
 **Dictionary**
 
@@ -111,7 +111,7 @@ table = Table(columns = columns,\
 
 ### Example 1
 
-![Table 1](media\table_1.png)
+![Table 1](media/table_1.png)
 src : [Zhenwen Li, Tao Xie Using LLM to select the right SQL Query from candidates](https://arxiv.org/pdf/2401.02115)
 
 **Defintion of columns**
@@ -122,4 +122,4 @@ src : [Zhenwen Li, Tao Xie Using LLM to select the right SQL Query from candidat
 
 **Body from csv file**
 
-open [data1.csv](tests\data1.csv)
+open [data1.csv](tests/data1.csv)
